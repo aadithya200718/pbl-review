@@ -1,0 +1,39 @@
+Feature_Name,Category,Leakage_Control
+IsHoliday,Holiday Indicator / Proximity,Pre-known Calendar Event
+Size,Store Attribute,Static Physical / ID Attribute
+Temperature,Macro / External,Exogenous Environmental Sensor
+Fuel_Price,Macro / External,Exogenous Environmental Sensor
+MarkDown1,Macro / External,Exogenous Environmental Sensor
+MarkDown2,Macro / External,Exogenous Environmental Sensor
+MarkDown3,Macro / External,Exogenous Environmental Sensor
+MarkDown4,Macro / External,Exogenous Environmental Sensor
+MarkDown5,Macro / External,Exogenous Environmental Sensor
+CPI,Macro / External,Exogenous Environmental Sensor
+Unemployment,Macro / External,Exogenous Environmental Sensor
+markdown_available,Macro / External,Exogenous Environmental Sensor
+markdown_active,Macro / External,Exogenous Environmental Sensor
+year,Calendar / Cyclical,Pre-known Calendar Math
+month,Calendar / Cyclical,Pre-known Calendar Math
+week_of_year,Calendar / Cyclical,Pre-known Calendar Math
+quarter,Calendar / Cyclical,Pre-known Calendar Math
+week_sin,Calendar / Cyclical,Pre-known Calendar Math
+week_cos,Calendar / Cyclical,Pre-known Calendar Math
+month_sin,Calendar / Cyclical,Pre-known Calendar Math
+month_cos,Calendar / Cyclical,Pre-known Calendar Math
+is_super_bowl,Holiday Indicator / Proximity,Pre-known Calendar Event
+is_labor_day,Holiday Indicator / Proximity,Pre-known Calendar Event
+is_thanksgiving,Holiday Indicator / Proximity,Pre-known Calendar Event
+is_christmas,Holiday Indicator / Proximity,Pre-known Calendar Event
+weeks_to_thanksgiving,Holiday Indicator / Proximity,Pre-known Calendar Event
+weeks_to_christmas,Holiday Indicator / Proximity,Pre-known Calendar Event
+sales_lag_1,Historical Sales Lag,Shifted t-1 (Store-isolated)
+sales_lag_2,Historical Sales Lag,Shifted t-2 (Store-isolated)
+sales_lag_4,Historical Sales Lag,Shifted t-4 (Store-isolated)
+sales_lag_52,Historical Sales Lag,Shifted t-52 (Store-isolated)
+sales_roll_mean_4,Rolling Window Statistic,Shifted t-1 Rolling Window (Store-isolated)
+sales_roll_std_4,Rolling Window Statistic,Shifted t-1 Rolling Window (Store-isolated)
+sales_roll_mean_12,Rolling Window Statistic,Shifted t-1 Rolling Window (Store-isolated)
+sales_roll_std_12,Rolling Window Statistic,Shifted t-1 Rolling Window (Store-isolated)
+Type_A,Store Attribute,Static Physical / ID Attribute
+Type_B,Store Attribute,Static Physical / ID Attribute
+Type_C,Store Attribute,Static Physical / ID Attribute

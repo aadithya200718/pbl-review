@@ -1,0 +1,7 @@
+Model,Tuned_Parameters,Best_CV_Score (MAE)
+MLP Neural Network,"{'hidden_layer_sizes': (128, 64), 'alpha': 0.01}",717717.8335056636
+Decision Tree,"{'min_samples_leaf': 10, 'max_depth': 12}",68646.84491988832
+Random Forest,"{'n_estimators': 100, 'min_samples_leaf': 3, 'max_depth': 12}",56730.684830846905
+Gradient Boosting,"{'n_estimators': 120, 'max_depth': 4, 'learning_rate': 0.1}",53791.2549013163
+XGBoost,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.08}",53224.23709396006
+LightGBM,"{'n_estimators': 150, 'max_depth': 6, 'learning_rate': 0.08}",55729.32603610333

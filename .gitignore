@@ -1,0 +1,80 @@
+# ==========================================
+# Python & Environment
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.env.*
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# Large Raw Datasets & Archives
+# ==========================================
+data/
+walmart-recruiting-store-sales-forecasting/
+*.zip
+*.tar.gz
+*.csv.gz
+
+# ==========================================
+# Secrets, Keys, Tokens & Credentials
+# ==========================================
+*.key
+*.pem
+*.cert
+*.crt
+*.p12
+*.pfx
+secrets.*
+credentials.*
+token.*
+kaggle.json
+*.token
+*.secret
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Testing & Temporary Directories
+# ==========================================
+.deepeval/
+.pytest_cache/
+.coverage
+htmlcov/

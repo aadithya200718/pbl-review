@@ -1,0 +1,4 @@
+Dataset,Total_Rows,Total_Columns,Missing_Cells,Pct_Missing
+train.csv,421570,5,0,0.0
+features.csv,8190,12,24040,24.46072446072446
+stores.csv,45,3,0,0.0
